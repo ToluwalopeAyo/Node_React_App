@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:alpine
 WORKDIR /app
 ADD . .
 RUN npm install --prefix ./backend && npm install --prefix ./frontend
